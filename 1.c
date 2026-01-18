@@ -3,7 +3,7 @@
 int number_simulation(int n) {
     int kroki = 0;
 
-    while(n >= 10) {
+    while(n > 10) {
         unsigned ostatnia_cyfra = n % 10;
         if(ostatnia_cyfra <= 3) {
             n = n + (ostatnia_cyfra * 2);
