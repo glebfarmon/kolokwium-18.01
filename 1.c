@@ -18,7 +18,7 @@ int number_simulation(int n) {
     return kroki;
 }
 
-int main(void) {
+int main() {
     int n;
     printf("Liczba startowa: ");
     if(scanf("%d", &n) != 1 || n <= 0) {
